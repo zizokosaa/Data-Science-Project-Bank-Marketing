@@ -55,6 +55,32 @@ Output variable (desired target):
 **Missing Attribute Values:** None
 
 
-WorkFlow
-1. Data preprocessing
-2. 
+Certainly! Here's how you can structure your workflow for a GitHub README:
+
+---
+
+## Workflow
+
+1. **EDA (Exploratory Data Analysis)**
+   - Conducted exploratory data analysis to understand the dataset and its characteristics.
+
+2. **Data Preprocessing**
+   - Performed necessary preprocessing steps such as handling missing values, outliers, and redundant features.
+
+3. **Feature Encoding**
+   - Encoded categorical columns using one-hot encoding, except for the month column which was also encoded using one-hot encoding due to its categorical nature.
+
+4. **Feature Scaling**
+   - Utilized Standardization for feature scaling to ensure consistency in feature magnitudes.
+
+5. **Feature Imbalance Handling**
+   - Addressed class imbalance in the target column by employing the SMOTE (Synthetic Minority Over-sampling Technique) method to balance class distribution.
+
+6. **Data Modeling**
+   - Utilized various machine learning models including KNN, RandomForest, Logistic Regression, and Naive Bayes for predictive modeling.
+
+7. **Model Evaluation**
+   - Evaluated model performance using appropriate metrics, with the RandomForest model achieving the highest accuracy of 93.5%.
+
+8. **Feature Importance**
+   - Determined feature importance using techniques such as RandomForest feature importances, revealing the top 3 features: Campaign, month, and balance.
