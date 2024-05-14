@@ -65,10 +65,10 @@ Certainly! Here's how you can structure your workflow for a GitHub README:
    - Conducted exploratory data analysis to understand the dataset and its characteristics.
 
 2. **Data Preprocessing**
-   - Performed necessary preprocessing steps such as handling missing values, outliers, and redundant features.
+   - Performed necessary preprocessing steps such as handling missing values, and redundant features.
 
 3. **Feature Encoding**
-   - Encoded categorical columns using one-hot encoding, except for the month column which was also encoded using one-hot encoding due to its categorical nature.
+   - Encoded categorical columns using label encoding, except for the month column which was encoded using one-hot encoding due to its categorical nature.
 
 4. **Feature Scaling**
    - Utilized Standardization for feature scaling to ensure consistency in feature magnitudes.
